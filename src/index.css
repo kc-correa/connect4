@@ -1,13 +1,88 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Times New Roman';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 0px 0px;
+}
+
+.button {
+    background-color: black;
+    color: lightskyblue;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.cell {
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #000;
+    border-radius: 100px;
+}
+
+.circles {
+    margin: -40px 0 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.red-sm {
+    background-color: yellow;
+}
+
+.message {
+    text-align: center;
+    font-size: 17px;
+}
+
+.white {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.red {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.yellow {
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 100px;
 }
